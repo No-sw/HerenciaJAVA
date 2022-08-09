@@ -15,8 +15,8 @@ public class AppLoteria {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Evento nuevoEvento = new Evento("08/08/2022");
-        nuevoEvento.cambiarEstado();
+        /*Evento nuevoEvento = new Evento("08/08/2022");
+        nuevoEvento.cambiarEstado();*/
         
         PegaTres nuevoSorteo = new PegaTres("11/02/2022", 1001);
         nuevoSorteo.getFecha();

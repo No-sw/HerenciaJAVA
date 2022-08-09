@@ -8,6 +8,8 @@ package apploteria;
  *
  * @author Toshiba
  */
-public class Premiados {
-    
+public class Premiados extends Evento{
+    private String ganador[];
+    private String premio[];
+    private int numeroSorteos;
 }

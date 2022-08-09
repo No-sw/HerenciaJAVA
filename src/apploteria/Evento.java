@@ -8,7 +8,7 @@ package apploteria;
  *
  * @author Toshiba
  */
-public class Evento {
+public abstract class Evento {
     private String fecha;
     private boolean esRealizado;
     
@@ -35,4 +35,6 @@ public class Evento {
     protected void getEstado(){
         System.out.println("Estado actual: "+this.esRealizado);
     }
+    protected abstract void realizarSorteo();
+    protected abstract void buscarGanadores();
 }
